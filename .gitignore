@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+env
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Runtime and writable artifacts
+/writable/cache/*
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+
+# Keep writable folder structure
+!/writable/cache/index.html
+!/writable/debugbar/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+
+# Frontend build artifacts (if generated)
+/public/build/
+/public/hot
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
